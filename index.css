@@ -1,0 +1,1098 @@
+
+  input-title{
+    background-color: black;
+}
+
+.container1{
+    display: block;
+    position: sticky;
+}
+.sticky{
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.two-divs{
+    display: flex;
+    flex: 70px 1;
+    padding-top: 50px;
+}
+.header{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    flex:40px 1 300px;
+    margin-bottom: 20px;
+}
+.left-section{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.middle-section{
+    display: flex;
+    width: 770px;
+    justify-content: center;
+}
+.right-section{
+    display: flex;
+    width: 340px;
+    justify-content: end;
+}
+.profile-info{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18px;
+    width: 160px;
+}
+.three-lines{
+    height: 22px;
+    color: rgb(182, 181, 181);
+    margin-left: 15px;  
+    padding: 8px 8px; 
+    border-radius: 10px;
+}
+.three-lines:hover{
+    background-color:rgb(227, 227, 227); 
+}
+.logo{
+    height: 20px;
+    padding: 7px;
+    margin-left: 20px;
+
+}
+.logo:hover{
+    border: 2px solid rgb(227, 227, 227);
+}
+.search-bar{
+    font-size: 15px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px;
+    outline: none;
+    border: 1px solid rgb(172, 168, 168);
+    padding-left: 15px;
+    width: 72%;
+    height: 39px;
+}
+.search-logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    width: 60px;
+    
+    background-color: rgb(246, 246, 246);
+    outline: none;
+    border: 1px solid rgb(172, 168, 168);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: -2px;
+}
+
+.search-logo-div:hover{
+    background-color: rgb(234, 234, 234);
+    transition-duration: 0.3s;
+   
+}
+.search-logo{
+    height: 20px;
+}
+.voice-div{
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.voice-div:hover{
+    background-color: rgb(227, 227, 227);
+}
+.voice-assistant{
+    height: 23px;
+}
+.create-div{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+.create{
+    height: 20px; 
+}
+.create-div:hover{
+    background-color: rgb(227, 227, 227);
+}
+.vedio-channel{
+    width: 200px ;
+    height: 40px;
+}
+.notif-div{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.notif-div:hover{
+    background-color: rgb(227, 227, 227);
+}
+.notif{
+    height: 25px;
+
+}
+.profile-div{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    height: 32px;
+    border-radius: 25px;
+}
+.notif-indicator{
+    height: 17px;
+    width: 23px;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(195, 1, 1);
+    margin-left: -12px;
+    border-radius: 17px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -20px;
+}
+.span{
+    font-weight: 700;
+    font-size: 12px;
+    color: whitesmoke;
+    
+}
+::placeholder{
+    max-width: 700px;
+}
+.search-bar:hover{
+    box-shadow: 1px 2px 1px 2px rgb(227, 227, 227);
+}
+.button-div{
+    display: inline-block;
+    width: 1300px;
+    vertical-align: top;
+    margin-top: 20px;
+    float: right;
+}
+.buttons button{
+    border: none;
+    padding: 6 11;
+    border-radius: 5px;
+    margin-left: 20px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.buttons button:active{
+    background-color: black;
+    color: white;
+}
+.buttons button:hover{
+    background-color: rgb(208, 208, 208);
+}
+.buttons{
+    display:flex;
+    overflow-x: auto;
+    
+}
+.buttons::-webkit-scrollbar{
+    width: 0;
+}
+.side-bar{
+    width: 70px;
+    float: left;
+    position: fixed;
+    padding-right: 4px;
+    margin-top: 86px;
+    z-index: 1000;
+    background-color: white;
+    border-right: 2px solid rgb(208, 208, 208);
+}
+
+
+.side-bar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 17px;
+}
+.side-bar div:hover {
+    background-color: rgb(208, 208, 208);
+    
+}
+.side-bar div a img{
+    height: 20px;
+}
+.body-flex{
+    display:flex;
+    margin-top: 30px;
+    padding-left :80px;
+    flex-direction: row;
+}
+.body-grid{
+    display: grid;
+    grid-template-columns:350px 350px 350px 350px ;
+    overflow: hidden; 
+
+}
+.body-flex-one{
+    padding-top: 100px;
+    overflow: hidden;
+    padding-left: 70px;
+}
+.notifications-bar{
+    width: 600px;
+    height: 500px;    
+    z-index: 1000;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    position: absolute;
+    top: 135;
+    overflow-y: scroll;
+    right: 150;
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+}
+.body-flex-one ::-webkit-scrollbar{
+    width: 0;
+}
+.vedio{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 3px;
+    border-radius: 8px;
+}
+.img-div{
+    height: 181px;
+    width: 330px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tumbnail{
+    position: relative;
+    width: 330px;
+}
+.tumbnail:hover{
+    border-radius: 18px;
+    transition-duration: 0.3s;
+}
+.profile-divi{
+    display: flex;
+    flex: 50px 280px;
+    width: 330px;
+    height: 140px;
+ 
+}
+.profile-photo{
+    height:115px;
+    width: 50px;
+}
+.time{
+    position:relative;
+    display: inline-block;
+    padding: 5px 5px;
+    bottom: 100;
+    left: 280;
+    font-size: 13px;
+    bottom: 30;
+    color: white;
+    background-color: rgb(33, 32, 32);
+    text-align: center;
+    border-radius: 5px;
+}
+.p-photo{
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.vedio-info{
+    width: 280px;
+    height: 115px;
+}
+.vedio-tittle{
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 590;
+    font-size: 17px;
+    width:280px;
+    height: 50px;
+}
+
+.author{
+    font-family: arial,roboto;
+    height: 20px;
+    width: 280px;
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+}
+.views{
+    font-family: arial,roboto;
+    height: 20px;
+    width: 280px;
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+}
+.dropdown-menu{
+    font-family: Arial;
+    position: absolute;
+    position: fixed;
+    height: 600px;
+    width: 400px;
+    background-color:white;
+    overflow-y: scroll;
+    top: 135;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+    border: 2px solid rgb(230, 230, 230);
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu{
+    display: none;
+
+}
+.buttons-div{
+    display: flex;
+    justify-content: space-between;
+}
+.login-button{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(172, 172, 172);
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+.signin-button{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(73, 73, 253);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.dropdown-menu a{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.dropdown-menu a:hover{
+    background-color: rgb(220, 220, 220);
+}
+.innerancors{
+    border-bottom: 2px solid rgb(202, 202, 202);
+    border-radius: 30px;
+    box-shadow: 1px 2px 1px rgb(237, 237, 237) ;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.innerancors:hover{
+    background-color:rgb(237, 237, 237) ;
+    transition-duration: 0.4s;
+}
+
+.inner{
+    border-bottom: 2px solid rgb(202, 202, 202);
+    box-shadow: 1px 2px 1px rgb(237, 237, 237) ;
+}
+.inner:hover{
+    background-color:rgb(237, 237, 237) ;
+    transition-duration: 0.4s;
+}
+.profile:active{
+    border: 2px solid blue;
+}
+
+.info-noti-div{
+    display: flex;
+    flex-direction: column;
+    width: 380%;
+    font-size: 18px;
+    padding-left: 15px;
+    position: relative;
+    height: 129px;
+}
+.hello-span {
+    position: absolute;
+    bottom: 0;
+    
+}
+.hello-spa{
+    color: grey;
+    font-size: 15px;
+}
+.nooti-vedio{
+    display: flex;
+    flex: 80px 1 130px;
+    padding: 20px;
+    height: 90px;
+ 
+}
+.nooti-vedio:hover{
+    background-color: rgb(222, 222, 222);
+    transform-origin: left;
+    transition-duration: 0.1s
+}
+.image-noti{
+    width: 130px;
+    height: 60px;
+
+}
+.image-noti-div{
+    width:150px;
+    height: 130px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.profile-image{
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.profile-noti-div{
+    width: 80px;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+    vertical-align: top;
+    position: relative;
+}
+.delete{
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgb(169, 137, 203);
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.delete:active{
+    background-color: rgb(102, 19, 210);
+    color: white;
+}
+
+.form{
+    width: 100%;
+    height: 350px;
+    z-index: 1000000;
+    position: absolute;
+    top:250;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.log{
+    background-color: rgb(200, 200, 200);
+    color: black;
+    box-shadow: 0 0 0 1px grey;
+}
+.displays{
+    max-width: 90px;
+    display: none;
+    animation: displayses 4s linear  1;
+}
+.color{
+    background-color: rgb(49, 49, 220);
+    color: white;
+}
+@keyframes displayses  {
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.horm{
+
+    background-color: white;
+    position: relative;  
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 400px;
+    padding-bottom: 80px;
+    border: 1px solid rgb(204, 0, 255);
+    
+}
+
+.checking{
+    display: flex;
+    flex: 20px 1;
+    flex-direction:row;
+    white-space: nowrap;
+}
+.checkbox{
+    height: 18px;
+    width: 18px;
+    float: left;
+
+}
+.inner-form{
+    flex-direction: column;
+    display: flex;
+    width: 280px;
+}
+.twoDivsBlur{
+    filter: blur(5px);
+}
+.into{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(168, 56, 56);
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom-left-radius:70%;
+    cursor: pointer;
+}
+.into:hover{
+    background-color: red;
+}
+
+
+input{
+    display: block;
+    padding: 7px 5px;
+    margin-bottom: 30px;
+    width: 300px;
+    border: 2px solid grey;
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.button{
+    background-color: blue;
+    display: block;
+    padding: 10px 10px; 
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    
+
+}
+.vedio:hover{
+    transform: scale3d(1, 1, 1);
+   
+}
+
+  div > input{
+    display: inline-block;
+  }
+.login{
+    display: none;
+}
+.login-hedding{
+     text-align: center;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     position: relative;
+     color: #3c009d;
+     padding-bottom: 20px;
+}
+.login-hedding::after{
+    content: '';
+    transform: translateX(285%);
+    bottom: 12;
+    background-color: #3c009d;
+    width: 35px;
+    border-radius: 10px;
+    height: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    position: absolute;
+}
+.bodygrid{
+    display: grid;
+    grid-template-columns:410px 410px 410px ;
+    overflow: hidden; 
+    padding-left: 160px;
+}
+.fa{
+    padding: 10px;
+    color: rgb(166, 0, 255);
+}
+
+.sideBar{
+    display: none;
+}
+.twoDivs{
+    display: flex;
+    flex: 180px  1;
+    padding-top: 50px;
+}
+.drop-down-menu{
+    width: 180px;
+    float: left;
+    padding-right: 4px;
+    margin-top: 86px;
+    z-index: 1000;
+    border-right: 2px solid rgb(208, 208, 208);
+}
+.droed{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.anchor-tags{
+    width: 180px;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.anchor-tags:hover{
+    background-color: rgb(238, 238, 238);
+}
+i:hover{
+    color: red;
+}
+.facolor{
+    color: red;
+}
+.dropping{
+    display: none;
+}
+
+.delete{
+    display: none;
+}
+.nooti-vedio:hover
+.delete{
+    display: block;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+}
+.spans{
+    margin-left: 700px;
+    font-size: 40px;
+    padding-top: 70px;
+}
+.divtwo{
+    border-bottom: 2px solid rgb(205, 205, 205);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.divone{
+    border-bottom: 2px solid rgb(205, 205, 205);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.divthree{
+    border-bottom: 2px solid rgb(205, 205, 205);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.menu-bar{
+    display: none;
+}
+.loading{
+    height: 60px;
+    width: 60px;
+    border-width:5px;
+    border-top:2px solid blue;
+    border-left: 2px solid blue;
+    border-radius:50%;
+    position: absolute;
+    z-index: 5000;
+    animation: spin 0.5s linear  infinite;
+    top: 350;
+    left: 700;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+.load-hide{
+    display: none;
+}
+@media screen and (width<500px) {
+
+    .body-grid{
+        display: grid;
+        grid-template-columns:370px;
+        overflow: hidden;
+        margin-left: 8px;
+    }
+    .sticky{
+        position: fixed;
+        padding-top: 10px;
+        margin-left: -8px;
+    }
+    .side-bar{
+        display: flex;
+        width: 390px;
+        position: absolute;
+        position: sticky;
+        height: 50px;
+        justify-content: space-around;
+        position: fixed;
+        padding-left:10px ;
+        z-index: 200;
+        bottom: -3;
+        left: 0;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;      
+    }
+    .container{
+        margin-top: -8px;
+    }
+
+    .two-divs{
+        flex: 390px;
+        position: relative;
+    }
+    .body-flex-one{
+        width: 400px;
+        padding-top: 100px;
+        padding-left: 0px;
+    }
+
+    .button-div{
+        width: 400px; 
+        float: left;
+        height: 20px;
+        padding-bottom: 10px;
+
+    }
+    .image-noti-div{
+        width:150px;
+        height: 130px;
+        padding-top: 20px;
+        margin-right: -40px;
+    }
+
+    
+    .left-section{
+        width: 130px;
+        display: flex;
+        height: 40px;
+        margin-left: -14px;
+    }
+    .middle-section{
+        width: 150px;
+        height: 40px;
+        margin-left: -10px;
+        display: flex;
+    }
+    .right-section{
+        display: flex;
+        height: 40px;
+        width: 130px;
+        margin-right:10px;
+        justify-content: space-between;
+    }
+    .header{
+        width:394px;
+        flex:130px 1 135px;
+        overflow: hidden;
+        margin-left: -7px;
+    }
+    .three-lines{
+        height: 20px;
+        margin-left: 15px;
+    }
+    .logo{
+        height: 17px;
+        padding: 0px;
+        margin-left: 2px;
+        padding-right: 0px;
+    }
+    .profile-info{
+        width: 130px;
+    }
+    .notif-div{
+        height: 40px;
+        width: 35px;
+        margin-left: -7px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .dropdown-menu{
+        height: 100vh;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        height:100vh;
+        z-index: 100;
+        padding-top: 20px;
+        margin-left: 20px;
+        top: 80;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius:15px ;
+    }
+    .horm{
+        width: 350px;
+        height: 350px;
+        padding-bottom: 80px;
+        border: 1px solid rgb(204, 0, 255);
+    }
+    input{
+        padding: 7px 5px;
+        margin-bottom: 30px;
+        width: 250px;
+        margin-left: 15px;
+        border: 2px solid grey;
+      }
+      .notifications-bar{
+        width: 400px;
+        height: 100vh;    
+        top: 50;
+        z-index: 100;
+        right: 0;
+        padding: 10px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .notifications-bar::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .delete{
+        display: none;
+    }
+    .nooti-vedio{
+        display: flex;
+        flex: 80px 1 130px;
+        padding: 20px;
+        height: 90px;
+     
+    }
+    .nooti-vedio:hover
+    .delete{
+        display: block;
+    }
+
+    .fa-phone{
+        position: absolute;
+        top: 0;
+    }
+    .search-bar{
+        margin-left: -7px;
+    }
+    .voice-assistant,
+    .create{
+        height: 19px;
+        width: 19px;
+        margin-left: -5px;
+    }
+    .notif{
+        height: 20px;
+        width: 20px;
+    }
+    .drop-down-menu{
+        z-index: 1000;
+        border-right: 2px solid rgb(208, 208, 208);
+        position: absolute;
+    }
+    .droed{
+        margin-top: 60px;
+        z-index: 100;
+        padding-top: 0px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: white;
+        animation: animation 0.3s linear;
+    }
+    .anchor-tags{
+        animation: animations 0.5s linear 0.5s;
+    }
+    @keyframes animations {
+        0%{
+            display: none;
+        }
+        100%{
+            display: block;
+        }
+    }
+    @keyframes animation {
+        0%{
+            width: 0px;
+            opacity: 0;
+        }
+        100%{
+            width: 180px;
+            opacity: 1.6;
+            -ms-transform-origin-x: top;
+        }
+    }
+    .bodygrid{
+        display: grid;
+        grid-template-columns:410px;
+        overflow: hidden; 
+        padding-left: 0;
+    }
+    .twoDivs{
+        flex: 1;
+        padding-top: 50px;
+    }
+    .profile-photo{
+        height:115px;
+        width: 50px;
+        padding-left: 10px;
+    }
+    .loading{
+        top: 350;
+        left: 180;
+    }
+
+    
+    body{
+        width: 390px;
+        overflow-x: hidden;
+        padding: 0px;
+    }
+    .vedio{
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+        padding-right: 10px;
+        margin-bottom: 3px;
+        border-radius: 8px;
+    }
+    .img-div{
+        height: 181px;
+        width: 400px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .tumbnail{
+        position: relative;
+        width: 370px;
+        margin-left: 3px;
+        height: 181px;
+        padding-left: -10px;
+    }
+    .buttons{
+        display:flex;
+        overflow-x: auto;
+        margin-top: -10px;
+        margin-left: -20px;
+    }
+    .time{
+        position:relative;
+        display: inline-block;
+        padding: 5px 5px;
+        bottom: 100;
+        left: 330;
+        font-size: 13px;
+        bottom: 30;
+        color: white;
+        background-color: rgb(33, 32, 32);
+        text-align: center;
+        border-radius: 5px;
+    }
+    .profile-divi{
+        display: flex;
+        flex: 50px 350px;
+        width: 400px;
+        margin-top: -5px;
+        height: 140px;
+    }
+    .vedio-info{
+        width: 321px;
+        height: 115px;
+    }
+    .menu{
+        display: none;
+    }
+    .vedio-tittle{
+        margin-top: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 590;
+        font-size: 17px;
+        width:300px;
+        height: 50px;
+    }
+    .profile-noti-div{
+        width: 70px;
+        display: flex;
+        height: 90px;
+        vertical-align: top;
+        position: relative;
+    }
+    
+}
